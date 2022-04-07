@@ -1,0 +1,40 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+:root {
+    --turkois: #4b7d62;
+    --hl-turkois: #429d6c;
+    --red: #9b1a15;
+    --hl-red: #d5120b;
+    --orange: #c98314;
+    --hl-orange: #f59908;
+    --light: #ceb67a;
+    --hl-light: #ebd294;
+    --black: #1e2315;
+    --hl-black: #3f492b;
+}
+
+
+.TopMenuButton {
+    height: 45px;
+    background-color: var(--turkois);
+    color: var(--orange);
+    font-size: 25px;
+    font-family: 'Roboto Slab', bold;
+    font-weight: bolder;
+    padding: 0px 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    border: 3px solid var(--orange);
+    line-height: 0;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+.TopMenuButton:hover {
+    background-color: var(--hl-turkois);
+    color: var(--hl-orange);
+    border: 3px solid var(--hl-orange);
+}
